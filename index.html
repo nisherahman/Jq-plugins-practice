@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jquery hw</title>
+    <link href="https://fonts.googleapis.com/css2?family=Mohave:ital,wght@0,400;1,500&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <link rel="stylesheet" href="css/venobox.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- banner part starts -->
+    <section id="banner">
+        <div class="container banner">
+            
+            <div class="banner-text">
+               
+                <h3>coming soon for</h3>
+                <h4><span class="element"></span></h4>
+                <p>Our new Bono web app will change the way you think about content management. Send us your questions through the contact form</p>
+                <div class="btn">
+                    <a href="#">contact us</a>
+                </div>
+
+            </div>
+        
+            <div id="countdown"></div>       
+
+        </div>
+        
+        <div id="particles-js"></div>
+
+    </section>
+    <!-- banner part starts -->
+
+    <!-- gallery part starts -->
+    <section id="gallery">
+        <div class="container gallery">
+            <ul>
+                <li class="active" data-filter="all">all</li>
+                <li data-filter=".web">web</li>
+                <li data-filter=".logo">logo design</li>
+                <li data-filter=".wp" >wordpress</li>
+                <li data-filter=".ecom">e-commerce</li>
+            </ul>
+        </div>
+        
+        <div class="gallery-main">
+
+            <div class="gallery-item mix web logo ecom wp ">
+                <img src="images/1.jpg" alt="image1">
+                <div class="overlay">
+                    <div class="icon">
+                        <a href="images/1.jpg" class="venobox" data-gall="gallery01">
+                            <i class="fas fa-eye"></i>
+                        </a>
+                    </div>
+                    <h5>labore et doore magnam</h5>
+                    <p>wordpress</p>
+                </div>
+            </div>
+            <div class="gallery-item mix logo wp web">
+                <img src="images/2.jpg" alt="image2">
+                <div class="overlay">
+                    <div class="icon">
+                        <a href="images/2.jpg" class="venobox" data-gall="gallery01">
+                            <i class="fas fa-eye"></i>
+                        </a>
+                    </div>
+                    <h5>labore et doore magnam</h5>
+                    <p>wordpress</p>
+                </div>
+            </div>
+            <div class="gallery-item mix wp ecom">
+                <img src="images/3.jpg" alt="image3">
+                <div class="overlay">
+                    <div class="icon">
+                        <a href="images/3.jpg" class="venobox" data-gall="gallery01">
+                            <i class="fas fa-eye"></i>
+                        </a>
+                    </div>
+                    <h5>labore et doore magnam</h5>
+                    <p>wordpress</p>
+                </div>
+            </div>
+            <div class="gallery-item mix ecom">
+                <img src="images/4.jpg" alt="image4">
+                <div class="overlay">
+                    <div class="icon">
+                        <a href="images/4.jpg" class="venobox" data-gall="gallery01">
+                            <i class="fas fa-eye"></i>
+                        </a>
+                    </div>
+                    <h5>labore et doore magnam</h5>
+                    <p>wordpress</p>
+                </div>
+            </div>
+            <div class="gallery-item mix web">
+                <img src="images/5.jpg" alt="image5">
+                <div class="overlay">
+                    <div class="icon">
+                        <a href="images/5.jpg" class="venobox" data-gall="gallery01">
+                            <i class="fas fa-eye"></i>
+                        </a>
+                    </div>
+                    <h5>labore et doore magnam</h5>
+                    <p>wordpress</p>
+                </div>
+            </div>
+            <div class="gallery-item mix logo">
+                <img src="images/6.jpg" alt="image6">
+                <div class="overlay">
+                    <div class="icon">
+                        <a href="images/6.jpg" class="venobox" data-gall="gallery01">
+                            <i class="fas fa-eye"></i>
+                        </a>
+                    </div>
+                    <h5>labore et doore magnam</h5>
+                    <p>wordpress</p>
+                </div>
+            </div>
+            <div class="gallery-item mix wp web">
+                <img src="images/7.jpg" alt="image7">
+                <div class="overlay">
+                    <div class="icon">
+                        <a href="images/7.jpg" class="venobox" data-gall="gallery01">
+                            <i class="fas fa-eye"></i>
+                        </a>
+                    </div>
+                    <h5>labore et doore magnam</h5>
+                    <p>wordpress</p>
+                </div>
+            </div>
+            <div class="gallery-item mix ecom">
+                <img src="images/8.jpg" alt="image8">
+                <div class="overlay">
+                    <div class="icon">
+                        <a href="images/8.jpg" class="venobox" data-gall="gallery01">
+                            <i class="fas fa-eye"></i>
+                        </a>
+                    </div>
+                    <h5>labore et doore magnam</h5>
+                    <p>wordpress</p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- gallery part ends -->
+
+    <!-- video part starts -->
+    <section id="video">
+        <div class="icon">
+            <a href="https://www.youtube.com/watch?v=ogeEY2q3_OU" class="venobox" data-autoplay="true" data-vbtype="video">
+               <i class="fas fa-play-circle"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- video part ends -->
+
+
+
+    
+
+
+
+
+
+
+    <script src="js/jquery-2.2.4.min.js"></script>
+    <script src="js/particles.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/typed.min.js"></script>
+    <script src="js/countdown.jquery.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/mixitup.min.js"></script>
+    <script src="js/venobox.min.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+</html>
